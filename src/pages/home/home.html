@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+      <ion-searchbar
+        [(ngModel)]="myInput"
+        [showCancelButton]="shouldShowCancel"
+        (ionInput)="onInput($event)"
+        (ionCancel)="onCancel($event)" placeholder="Search Name">
+      </ion-searchbar>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="body-wrapper">
+  <!--<ion-scroll scrollX="false" scrollY="true" class="default-scroll">-->
+  <h5 ion-text>Github Users</h5>
+  <ion-card class="profile-info-block" *ngFor="let user of users">
+    <ion-item (click)="userInfo(user.url)">
+      <ion-avatar item-left>
+        <img src="{{user.avatar_url}}">
+      </ion-avatar>
+      <h2 class="profile-title">{{user.login}}</h2>
+      <!--<p class="profile-name">City Name</p>-->
+    </ion-item>
+  </ion-card>
+</ion-content>

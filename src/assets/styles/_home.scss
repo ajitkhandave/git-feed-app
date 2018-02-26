@@ -1,0 +1,44 @@
+
+
+page-home {
+  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+  .toolbar-background{
+
+  }
+  .body-wrapper{
+    background: -webkit-linear-gradient(270deg, rgba(255,255,255,0) 60%, #fff),-webkit-linear-gradient(20deg, #dbedff 32%, #ebfff0 );
+  }
+  .body-wrapper h5{
+    text-align: center;
+    color: #363636;
+  }
+  .searchbar-input{
+    background-color: #e5e5e5 !important;
+    box-shadow: none !important;
+  }
+  .searchbar-wp .searchbar-input-container{
+    border: none;
+  }
+  .profile-info-block{
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px;
+  }
+  .profile-picure-block{
+    margin: 0;
+    background: #00bf9a;
+    padding: 15px;
+  }
+  .profile-title{
+    color: #363636;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .profile-name{
+    color: #a7a7a7;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .no-padding{
+    padding: 0;
+  }
+
+}

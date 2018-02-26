@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <h2 class="user-info-title">User Info</h2>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="body-wrapper" *ngIf="this.userDetail">
+  <ion-card class="user-info-wrapper">
+    <ion-item>
+      <ion-avatar item-left>
+        <img src="{{userDetail.avatar_url}}">
+      </ion-avatar>
+      <h2 class="user-title">{{userDetail.name}}</h2>
+    </ion-item>
+    <ion-card-content class="user-content-section">
+      <ion-row>
+        <ion-col col-4>
+          <h4 class="user-caption">Username</h4>
+        </ion-col>
+        <ion-col col-8>
+          <h4 class="user-data">{{userDetail.login}}</h4>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4>
+          <h4 class="user-caption">Location</h4>
+        </ion-col>
+        <ion-col col-8>
+          <h4 class="user-data">{{userDetail.location}}</h4>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4>
+          <h4 class="user-caption">Company</h4>
+        </ion-col>
+        <ion-col col-8>
+          <h4 class="user-data">{{userDetail.company}}</h4>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col col-4>
+          <h4 class="user-caption">Blog Link</h4>
+        </ion-col>
+        <ion-col col-8>
+         <h4 class="user-data">{{userDetail.blog}}</h4>
+        </ion-col>
+      </ion-row>
+    </ion-card-content>
+    <ion-card-content class="center-block">
+      <ion-item class="user-lable-block">
+        <ion-label class="primary-lable">{{userDetail.public_repos}} Public Repoa</ion-label>
+        <ion-label class="secondary-lable">{{userDetail.followers}} Followers</ion-label>
+        <ion-label class="dark-lable">{{userDetail.following}} Following</ion-label>
+      </ion-item>
+      <button ion-button outline (click)="viewProfile(userDetail.repos_url, userDetail.name)" class="repo-btn">View Repo</button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

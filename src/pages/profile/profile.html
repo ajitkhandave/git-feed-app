@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      <h2 class="profile-info-title">Repositories</h2>
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="body-wrapper" *ngIf="this.repo">
+  <h2 class="repo-title">{{name}}</h2>
+  <ion-card class="repo-info-block" *ngFor="let repos of repo ">
+    <ion-item>
+      <h2 class="repo-name">{{ repos.name }}</h2>
+      <p class="repo-detail">{{repos.description}}</p>
+    </ion-item>
+  </ion-card>
+</ion-content>

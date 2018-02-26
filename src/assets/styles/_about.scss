@@ -1,0 +1,14 @@
+page-about {
+  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+  ion-content{
+    color: #363636;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: -webkit-linear-gradient(270deg, rgba(255,255,255,0) 60%, #fff),-webkit-linear-gradient(20deg, #dbedff 32%, #ebfff0 );
+  }
+   ion-title{
+     color: #363636;
+     font-size: 24px;
+     text-transform: capitalize;
+     font-family: 'Source Sans Pro', sans-serif;
+    }
+}

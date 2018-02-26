@@ -1,0 +1,28 @@
+page-contact {
+  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+  .body-wrapper{
+      background: -webkit-linear-gradient(270deg, rgba(255,255,255,0) 60%, #fff),-webkit-linear-gradient(20deg, #dbedff 32%, #ebfff0 );
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+  ion-title{
+       color: #363636;
+       font-size: 24px;
+       text-transform: capitalize;
+       font-family: 'Source Sans Pro', sans-serif;
+      }
+  ion-avatar{
+    padding: 10px;
+    text-align: center;
+  }
+  ion-avatar >img{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+  }
+  .profile-litle{
+    text-align: center;
+    font-size: 14px;
+
+  }
+}

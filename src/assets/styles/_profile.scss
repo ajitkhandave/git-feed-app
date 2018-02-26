@@ -1,0 +1,35 @@
+
+
+page-profile {
+  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+    ion-title{
+       color: #363636;
+       text-transform: capitalize;
+       font-family: 'Source Sans Pro', sans-serif;
+      }
+   .bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default{
+    color: #363636;
+    font-family: 'Source Sans Pro', sans-serif;
+   }
+  .body-wrapper{
+     background: -webkit-linear-gradient(270deg, rgba(255,255,255,0) 60%, #fff),-webkit-linear-gradient(20deg, #dbedff 32%, #ebfff0 );
+     font-family: 'Source Sans Pro', sans-serif;
+   }
+   .repo-title{
+    font-size: 20px;
+    text-align: center;
+   }
+  .repo-info-block{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 4px;
+  }
+  .repo-name{
+    color: #363636;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .repo-detail{
+    color: #a7a7a7;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+}

@@ -1,0 +1,83 @@
+
+
+page-user {
+  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+  .toolbar-background{
+
+   }
+   ion-title{
+    color: #363636;
+    text-transform: capitalize;
+    font-family: 'Source Sans Pro', sans-serif;
+   }
+   .bar-button-default-ios, .bar-button-default.bar-button-ios-default, .bar-button-clear-ios-default{
+    color: #363636;
+    font-family: 'Source Sans Pro', sans-serif;
+   }
+ .body-wrapper{
+     background: -webkit-linear-gradient(270deg, rgba(255,255,255,0) 60%, #fff),-webkit-linear-gradient(20deg, #dbedff 32%, #ebfff0 );
+     border-radius: 10px;
+     font-size: 12px;
+     font-family: 'Source Sans Pro', sans-serif;
+   }
+   .user-info-wrapper{
+    margin-top: 50px;
+   }
+   ion-button{
+    margin-top: 20px;
+   }
+  .user-content-section{
+    padding-top: 15px !important;
+  }
+  .user-lable-block{
+    padding: 0;
+  }
+  .user-title{
+    color: #363636;
+    font-weight: 600;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  .user-caption{
+    color: #363636;
+    font-weight: 600;
+  }
+  .user-data{
+    color: #a7a7a7;
+    text-align: left;
+  }
+  .primary-lable{
+    background: #488aff;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    margin: 0;
+  }
+  ion-col{
+    width: 50%;
+  }
+  .secondary-lable{
+    background: #32db64;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    margin: 0;
+  }
+  .dark-lable{
+    background: #222;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    margin: 0;
+  }
+  .repo-btn{
+    padding: 10px 15px;
+    height: auto;
+    background: #488aff;
+    color: #fff;
+    margin-top: 20px;
+  }
+  .center-block{
+    text-align: center;
+  }
+}
